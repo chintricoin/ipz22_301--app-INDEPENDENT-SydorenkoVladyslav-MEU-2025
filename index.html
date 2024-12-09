@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклади HTML елементів</title>
+</head>
+<body>
+
+    <header>
+        <h1>Самостійна Робота 1</h1>
+    </header>
+  <section>
+        <h2>1. Що таке HTML?</h2>
+        <p>HTML (HyperText Markup Language) – це основна мова для створення веб-сторінок. Вона використовується для структурування контенту і надання йому базової форми.</p>
+        <p>Приклад базової структури HTML-документа:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Назва сторінки&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Тарас Бульба&lt;/h1&gt;
+    &lt;p&gt;Це приклад HTML сторінки.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+    </section>
+     <section>
+
+        <h2>2. HTML Редактори коду та IDE</h2>
+        <p>HTML можна писати у будь-якому текстовому редакторі, але для зручності використовуються спеціальні редактори коду (IDE), наприклад Visual Studio Code, Atom, або Sublime Text. Вони спрощують написання коду завдяки підсвічуванню синтаксису та автодоповненню.</p>
+    </section>
+    <section>
+
+        <h2>3. HTML Основні приклади</h2>
+        <p>Це простий приклад HTML сторінки з використанням заголовків, параграфів та списків.</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Заголовок сторінки&lt;/h1&gt;
+    &lt;p&gt;Це приклад абзацу тексту.&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Елемент списку 1&lt;/li&gt;
+      &lt;li&gt;Елемент списку 2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+    </section>
+
+    
+    <section>
+        <h2>4. HTML Елементи</h2>
+        <p>HTML елементи складаються з відкриваючого та закриваючого тегів, між якими знаходиться вміст. Наприклад:</p>
+        <pre><code>&lt;p&gt;Це абзац.&lt;/p&gt;
+&lt;a href="https://example.com"&gt;Це посилання&lt;/a&gt;
+        </code></pre>
+    </section>
+
+   
+    <section>
+        <h2>5. HTML Атрибути</h2>
+        <p>Атрибути надають елементам додаткову інформацію. Наприклад, атрибут <code>href</code> вказує на адресу для посилання, а <code>alt</code> – на альтернативний текст для зображень.</p>
+        <pre><code>&lt;a href="https://example.com"&gt;Перейти на сайт&lt;/a&gt;
+&lt;img src="image.jpg" alt="Опис зображення"&gt;
+        </code></pre>
+    </section>
+
+    <section>
+        <h2>6. HTML Параграфи</h2>
+        <p>Абзаци тексту створюються з використанням тегу &lt;p&gt;.</p>
+        <p>Це приклад абзацу тексту.</p>
+    </section>
+
+    <section>
+        <h2>7. HTML Посилання</h2>
+        <p>Посилання (елемент &lt;a&gt;) використовуються для переходу на інші сторінки. Атрибут <code>href</code> задає URL цілі.</p>
+        <pre><code>&lt;a href="https://example.com"&gt;Перейти&lt;/a&gt;
+        <a href="https://w3schoolsua.github.io/html/html_links.html" target="_blank">Посилання на приклад</a>
+        </code></pre>
+    </section>
+
+    <section>
+        <h2>8. HTML Зображення</h2>
+        <p>Зображення вставляються за допомогою тегу &lt;img&gt; з атрибутом <code>src</code> (посилання на файл зображення) та <code>alt</code> (опис зображення).</p>
+        <pre><code>&lt;img src="image.jpg" alt="Приклад зображення"&gt;
+        </code></pre>
+        <img src="cat.jpg" alt="Смішний Кіт">
+    </section>
+
+    <section>
+        <h2>9. HTML Таблиці</h2>
+        <p>Таблиці використовуються для представлення даних у структурованому вигляді, з рядками та стовпцями.</p>
+        <table border="1">
+            <tr>
+                <th>Назва</th>
+                <th>Ціна</th>
+            </tr>
+            <tr>
+                <td>Продукт 1</td>
+                <td>100 грн</td>
+            </tr>
+            <tr>
+                <td>Продукт 2</td>
+                <td>200 грн</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>10. HTML Списки</h2>
+        <p>HTML має різні типи списків, наприклад:</p>
+
+        <h3>Невпорядкований список:</h3>
+        <ul>
+            <li>Елемент 1</li>
+            <li>Елемент 2</li>
+            <li>Елемент 3</li>
+        </ul>
+
+        <h3>Впорядкований список:</h3>
+        <ol>
+            <li>Елемент 1</li>
+            <li>Елемент 2</li>
+            <li>Елемент 3</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>11. HTML Форми</h2>
+        <p>Форми дозволяють користувачам вводити дані для відправки на сервер. Наприклад, тут представлена форма для збирання імені та електронної пошти користувача:</p>
+        <form action="/submit" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Відправити">
+        </form>
+    </section>
+
+</body>
+</html>
